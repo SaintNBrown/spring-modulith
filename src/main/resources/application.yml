@@ -1,3 +1,5 @@
 spring:
   application:
     name: spring-modulith
+  profiles:
+    active: dev

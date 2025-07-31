@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+    #allows tables to be created first before any initialization
+    defer-datasource-initialization: true
+
+  sql:
+    init:
+      mode: never
